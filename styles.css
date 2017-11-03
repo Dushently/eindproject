@@ -3,34 +3,40 @@ body {
     background-image: url("img/1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    /* background-attachment: fixed; bg blijft staan
+en content scrollt er overheen */
 }
 
 header {
     width: 100%;
     background-color: #ffffff;
-
 }
 
 ul {
+    margin: 0;
     width: auto;
-    height: 5rem;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0;
-
+    /*justify-content: space-around; elk
+    list item krijgt een padding om heen ,
+    waardoor het alle ruimte benut */
 }
 
 ul li {
     list-style-type: none;
-
+    /*geen styling */
 }
 
 li a {
-    text-decoration: none;
-    font-size: 16pt;
     font-family: 'Arial', Verdana, Geneva, sans-serif;
+    font-size: 2vh;
     color: #000000;
+    text-decoration: none;
+    /*vh , om bij het in en uitzoomen grote te behouden  */
+
 }
 
 li img {
@@ -41,11 +47,12 @@ li img {
 }
 
 .welkom {
+    /*class welkom , h1 in het midden plaatsen*/
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
 }
 
 h1 {
@@ -53,48 +60,47 @@ h1 {
     height: 15%;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    color: #ffffff;
     font-family: 'Arial', Verdana, Geneva, sans-serif;
     font-size: 50pt;
+    color: #ffffff;
     text-shadow: 4px 4px black;
-
+    /*text-shadow om text aansprekend te maken*/
 }
 
 .about-me {
+    height: 30%;
     background-color: #ffffff;
-    height: 30vm;
     padding-left: 7%;
-
 }
 
-.aboutme {
+.abouth2 {
     font-family: 'Arial', Verdana, Geneva, sans-serif;
     font-weight: normal;
     font-size: 25pt;
-    justify-content: center;
 }
 
 .doelen {
     margin-top: -10rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 7%;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 article {
+
+    margin-left: 20%;
+    margin-right: 3%;
     font-size: 2vh;
     font-family: 'Arial', Verdana, Geneva, sans-serif;
-    margin-left: 20vw;
-    margin-right: 2vw;
     line-height: 3.5vh;
 }
 
 .work {
+    height: 160vh;
     background-color: beige;
-    height: 80vmax;
-    padding-left: 7%;
     padding-top: 5%;
+    padding-left: 7%;
     padding-bottom: 5%;
 }
 
@@ -106,32 +112,30 @@ article {
 }
 
 table {
+    width: 75%;
+    margin-left: 19vw;
     font-family: 'Arial', Verdana, Geneva, sans-serif;
     border-collapse: collapse;
-    width: 75%;
-    margin-left: 20vw;
-
 }
 
 .tableh3 {
-    font-size: 2vh;
     font-family: 'Arial', Verdana, Geneva, sans-serif;
-    margin-left: 20vw;
+    font-size: 2vh;
+    margin-left: 19vw;
 }
 
 th {
-    color: #fff;
+    color: #ffffff;
     border: 2px solid #dddddd;
     background-color: #404040;
     text-align: left;
-    padding: 8px;
+    padding: 1%;
 }
 
 td {
-    color: #000;
+    color: #000000;
     border: 2px solid #dddddd;
     background-color: #fff;
-    text-align: left;
     padding: 8px;
 }
 
@@ -149,10 +153,10 @@ td {
 }
 
 .omschrijving {
-    padding: 9px;
+    padding: 1%;
     text-align: center;
-    background-color: #fff;
-    border-color: #000;
+    background-color: #ffffff;
+    border-color: #000000;
 }
 
 .marathon {
@@ -167,25 +171,6 @@ td {
     width: 25%;
 }
 
-#form {
-    width: 700px;
-    border: 2px solid #bbbbbb;
-    background-color: #f8f8f8;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-#form label, #form input, #form select {
-    display: block;
-}
-
-#form input, #form select, #form textarea {
-    margin-bottom: 20px;
-    padding: 6px;
-    width: 350px;
-}
-
 .contact {
     height: 40vmax;
     padding-left: 7%;
@@ -198,6 +183,36 @@ td {
     font-weight: normal;
     font-size: 25pt;
 
+}
+
+#form {
+    margin: 0 auto;
+    padding: 1.5%;
+    width: 40%;
+    border: 2px solid #bbbbbb;
+    border-radius: 2%;
+    background-color: #f8f8f8;
+}
+
+#form label, #form input, #form select {
+    display: block;
+    /*elementen komen onder elkaar*/
+
+}
+
+#form input, #form select, #form textarea {
+    width: 350px;
+    margin-bottom: 20px;
+    padding: 6px;
+
+}
+
+footer {
+    padding-top: 2%;
+    height: 2.5%;
+    text-align: center;
+    font-size: 14pt;
+    background-color: #ffffff;
 }
 
 .none {
