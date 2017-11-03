@@ -1,0 +1,207 @@
+
+body {
+    margin: 0 auto;
+    background-image: url("img/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+ul {
+    width: auto;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+
+}
+
+ul li {
+    list-style-type: none;
+
+}
+
+li a {
+    text-decoration: none;
+    font-size: 16pt;
+    font-family: 'Arial', Verdana, Geneva, sans-serif;
+    color: #000000;
+}
+
+li img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+}
+
+.welkom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    width: 30%;
+    height: 15%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    color: #ffffff;
+    font-family: 'Arial', Verdana, Geneva, sans-serif;
+    font-size: 50pt;
+    text-shadow: 4px 4px black;
+
+}
+
+.about-me {
+    background-color: #ffffff;
+    height: 30vm;
+    padding-left: 7%;
+
+}
+
+.aboutme {
+    font-family: 'Arial', Verdana, Geneva, sans-serif;
+    font-weight: normal;
+    font-size: 25pt;
+    justify-content: center;
+}
+
+.doelen {
+    margin-top: -10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 7%;
+    background-color: #fff;
+}
+
+article {
+    font-size: 2vh;
+    font-family: 'Arial', Verdana, Geneva, sans-serif;
+    margin-left: 20vw;
+    margin-right: 2vw;
+    line-height: 3.5vh;
+}
+
+.work {
+    background-color: beige;
+    height: 80vmax;
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.werk {
+    font-family: 'Arial', Verdana, Geneva, sans-serif;
+    font-weight: normal;
+    font-size: 25pt;
+
+}
+
+table {
+    font-family: 'Arial', Verdana, Geneva, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: 20vw;
+
+}
+
+.tableh3 {
+    font-size: 2vh;
+    font-family: 'Arial', Verdana, Geneva, sans-serif;
+    margin-left: 20vw;
+}
+
+th {
+    color: #fff;
+    border: 2px solid #dddddd;
+    background-color: #404040;
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    color: #000;
+    border: 2px solid #dddddd;
+    background-color: #fff;
+    text-align: left;
+    padding: 8px;
+}
+
+.gallery {
+    border: 1px solid #ccc;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.omschrijving {
+    padding: 9px;
+    text-align: center;
+    background-color: #fff;
+    border-color: #000;
+}
+
+.marathon {
+    padding-left: 7%;
+    float: left;
+    width: 25%;
+}
+
+.opdrachten {
+    padding-left: 7%;
+    float: left;
+    width: 25%;
+}
+
+#form {
+    width: 700px;
+    border: 2px solid #bbbbbb;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#form label, #form input, #form select {
+    display: block;
+}
+
+#form input, #form select, #form textarea {
+    margin-bottom: 20px;
+    padding: 6px;
+    width: 350px;
+}
+
+.contact {
+    height: 40vmax;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+.contacth2 {
+    color: white;
+    font-family: 'Arial', Verdana, Geneva, sans-serif;
+    font-weight: normal;
+    font-size: 25pt;
+
+}
+
+.none {
+    display: none;
+}
